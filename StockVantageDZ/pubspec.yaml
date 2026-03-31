@@ -1,0 +1,33 @@
+name: stockvantagedz
+description: "Digital stock management platform for Algerian industrial units"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # المكتبات الأساسية لمشروعك
+  supabase_flutter: ^2.0.2     # للاتصال بقاعدة بيانات Supabase
+  google_fonts: ^6.2.1         # لتحسين شكل الخطوط في الواجهة
+  font_awesome_flutter: ^10.7.0 # لأيقونات إضافية احترافية
+  intl: ^0.19.0                # لتنسيق التواريخ والأرقام (مهم للمخازن)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # الكود الكامل لتعريف الصور (تأكد أن الأسماء تطابق ملفاتك)
+  assets:
+    - assets/entree.png
+    - assets/sortie.png
+    - assets/inventaire.png
+    - assets/dommage.png
